@@ -1,0 +1,447 @@
+@media (max-width: 1450px) {
+  .Home-Grid-cards-hailights-one {
+    height: auto;
+  }
+}
+
+@media (max-width:1700px) {
+  .Why-choose-us-main-img{
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .Home-Grid-cards-hailights-one {
+    margin: 0px auto;
+  }
+  .Home-Grid-cards-6{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Onboarding-breadcrumb-Sec{
+     padding: 100px 0px 150px;
+  }
+
+   .Investible-Score-card-cont-wrap{
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+
+  .section-padding {
+    padding: 70px 0px;
+  }
+
+  .Investible-Score-Report-main-inner-cards-wrap {
+    flex-direction: row;
+    right: auto;
+    bottom: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .Investible-Score-Report-cont-wrap {
+    height: auto;
+    max-height: 100%;
+  }
+
+  .Investible-Score-Report-main-img {
+    position: relative;
+  }
+
+  .Home-Tab-System .nav-pills {
+    justify-content: center;
+  }
+
+  .IndiaOldest-Largest-Repository {
+    height: auto;
+  }
+
+  .Why-choose-us-main-card h6 {
+    max-width: 100% !important;
+  }
+
+  .Why-choose-us-main-card .primary-icon-wrap {
+    margin: 20px auto;
+  }
+
+  .Why-choose-us-main-card {
+    max-width: 100% !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .Why-choose-us-card-wrap {
+    flex-wrap: wrap;
+  }
+
+  .Desktop-Valuation-main-img-wrap {
+    display: grid;
+    place-content: center;
+  }
+
+  .nav-options {
+    display: none;
+  }
+
+  .House-Hunt-main-img {
+    width: 100%;
+    transform: translateX(0%);
+    object-fit: cover;
+  }
+
+  .House-Hunt-main-img img {
+    width: 100%;
+  }
+
+  .House-Hunt-card-wrap {
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+  }
+
+  .House-Hunt-cont-card {
+    margin: 0px auto 20px;
+  }
+
+  .Desktop-Valuation-main-img-wrap > img {
+    position: relative;
+  }
+
+  .Desktop-Valuation-card-wrap {
+    top: 50%;
+    left: 50%;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+  }
+
+  .Speak-to-an-Expert-sec .Desktop-Valuation-card-wrap {
+    top: 50%;
+    left: 50%;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1000px) {
+  .xl-p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  
+  .Why-choose-us-main-img {
+    display: none;
+  }
+
+  .Future-Price-Projection-FPP-img-wrap{
+    margin-bottom: 30px;
+  }
+
+  .Future-Price-Projection-FPP-cont-wrap{
+    margin-bottom: 30px;
+  }
+
+  .IndiaOldest-Largest-Repository-main-tit {
+    margin-bottom: 50px;
+  }
+
+  .HomeGet-Touch-with-Us-wrap {
+    max-width: 90%;
+    margin: 0px auto;
+    padding: 20px;
+  }
+
+  .section-padding {
+    padding: 60px 0px;
+  }
+
+  .IndiaOldest-Largest-Repository {
+    max-height: 100%;
+    height: auto;
+  }
+
+  .Indias-Oldest-largest-repository-card {
+    /* height: 100%; */
+    margin-top: 30px;
+  }
+
+  .House-Hunt-cont-wrap .House-Hunt-cont-card {
+    max-width: 100%;
+  }
+
+  .Speak-to-an-Expert-sec .House-Hunt-cont-card {
+    max-width: 100%;
+  }
+
+  .Investible-Score-Report-cont-wrap {
+    margin-right: auto;
+    height: auto;
+  }
+
+  .Investible-Score-Report-main-img {
+    position: static;
+  }
+
+  .banner-main-img-wraper img {
+    position: relative;
+  }
+
+  .banner-bg-1,
+  .banner-bg-2 {
+    display: none;
+  }
+
+  .House-Hunt-main-img {
+    width: 100%;
+    transform: translateX(0%);
+  }
+
+  .Desktop-Valuation-main-img-wrap > img {
+    max-width: 100%;
+  }
+
+  .Speak-to-an-Expert-sec .Desktop-Valuation-main-img-wrap > img {
+    max-height: 700px;
+    height: 700px;
+    object-fit: cover;
+  }
+
+  .Desktop-Valuation-card-wrap {
+    flex-direction: row;
+  }
+
+  .Home-Grid-cards-wraper > * {
+    flex-basis: 400px;
+  }
+
+  .Investible-Score-Report-main-img {
+    position: relative;
+    width: 100%;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    top: auto;
+  }
+
+  .Investible-Score-Report-cont-wrap {
+    max-height: 100%;
+  }
+
+  .Investible-Score-Report-main-inner-cards-wrap {
+    flex-direction: row;
+    right: auto;
+    bottom: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .Investible-Score-Report-main-img img {
+    height: 650px;
+  }
+}
+
+@media (max-width: 700px) {
+  .section-padding {
+    padding: 50px 0px;
+  }
+
+  .What-our-client-says-card {
+    padding: 20px;
+  }
+
+  .House-Hunt-card-wrap {
+    flex-direction: column;
+  }
+
+  .House-Hunt-main-img img {
+    height: 700px;
+  }
+
+  .Investible-Score-Report-main-inner-card-two {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+   
+
+  h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 62px;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 52px;
+  }
+
+  h4 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 46px;
+  }
+
+  h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  h6 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .Home-Grid-cards-6 {
+    justify-content: center;
+  }
+
+  .section-padding {
+    padding: 30px 0px;
+  }
+  .House-Hunt-main-img img {
+    height: 800px;
+    object-fit: cover;
+  }
+
+  .nav-btn-wrap {
+    gap: 5px;
+    flex-wrap: nowrap;
+  }
+
+  .nav-Log-In-btn,
+  .nav-Sign-Up-btn {
+    padding: 14px 10px;
+  }
+
+  .home-banner-sec {
+    padding: 70px 0px 40px;
+  }
+
+  .Home-Grid-Sec{
+    padding: 30px 0px;
+  }
+
+  .Desktop-Valuation-card-wrap{
+    width: 90%;
+  }
+
+  .nav-btn-wrap{
+    padding: 0px;
+  }
+
+  .nav-btn-wrap button{
+    font-size: 12px;
+  }
+
+  .banner-cont-wrap h1{
+    margin-bottom: 40px;
+  }
+
+  .privacy-policy-wrap{
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .Home-Grid-para-card p{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .Home-Grid-para-card{
+    padding: 18px;
+  }
+
+
+  .privacy-policy-wrap span{
+    justify-content: center;
+  }
+
+  .House-Hunt-main-para{
+    margin-bottom: 40px;
+  }
+
+  .House-Hunt-cards{
+    /* width: 90%; */
+  }
+
+  .House-Hunt-card-wrap{
+    width: 90%;
+  }
+
+  .House-Hunt-card-img img{
+    width: 100%;
+  }
+
+  .Investible-Score-Report-main-para{
+    margin-bottom: 30px;
+  }
+
+  .Unique-scales-Evaluation-list{
+    padding: 20px 0px;
+  }
+
+  .Why-choose-us-main-tit{
+    margin-bottom: 30px;
+  }
+
+  .IndiaOldest-Largest-Repository-main-tit{
+    margin-bottom: 30px;
+  }
+
+  .main-tit-links{
+    gap: 10px;
+  }
+
+  .Onboarding-breadcrumb-Sec{
+    padding: 50px 0px 100px;
+  }
+
+  .Investible-Score-hole-card-wrap{
+    padding: 15px;
+  }
+
+  .Investible-Score-card-cont-wrap{
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1304px;
+  }
+}

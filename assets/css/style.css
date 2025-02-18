@@ -1,0 +1,1261 @@
+:root {
+    --primary: #75D6AB;
+    --secondary: #E65252;
+    --tertiary: #E9F4FF;
+    --transition: 0.3s ease;
+    --border: 1px solid #DADADA;
+    --radiusPrimary: 12px;
+    --white: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 72px;
+    border: --;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.xl-p{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+
+.section-padding {
+    padding: 80px 0px;
+}
+
+a:hover {
+    color: var(--secondary);
+    transition: var(--transition);
+}
+
+.navbar {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+}
+
+.nav-bar-logo {
+    display: grid;
+    place-content: center;
+}
+
+.nav-bar-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-options {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-options a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -2%;
+}
+
+.nav-btn-wrap {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+}
+
+.nav-btn-wrap button {
+    color: var(--primary);
+}
+
+.nav-Log-In-btn,
+.nav-Sign-Up-btn {
+    padding: 14px 22px;
+    transition: var(--transition);
+}
+
+.nav-Log-In-btn:hover,
+.nav-Sign-Up-btn:hover {
+    color: var(--secondary);
+}
+
+.home-banner-sec {
+    padding: 186px 0px 86px;
+    background-color: var(--tertiary);
+}
+
+.banner-cont-wrap h1 {
+    margin-bottom: 82px;
+}
+
+.banner-cont-wrap p {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -2%;
+    max-width: 608px;
+    width: 100%;
+}
+
+.banner-main-img-wraper {
+    position: relative;
+}
+
+.banner-main-img-wraper img {
+    position: absolute;
+}
+
+.banner-bg-1,
+.banner-bg-2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.banner-bg-1 img,
+.banner-bg-1 img {
+    width: 1014px;
+    height: 1014px;
+}
+
+.Home-Grid-Sec {
+    padding: 100px 0px;
+}
+
+.Home-Grid-cards-wraper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 228px 619px 353px;
+    grid-template-rows: 96px 265px auto;
+    grid-auto-flow: column;
+    place-content: center;
+}
+
+
+
+.Home-Grid-cards-1 {
+    grid-row: 1;
+    grid-column: 1;
+    grid-column-start: 1;
+    grid-row-end: 3;
+}
+
+
+.Home-Grid-cards-2 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.Home-Grid-cards-3 {
+    /* width: 556px; */
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.Home-Grid-cards-4 {
+    /* background-color: var(--primary); */
+}
+
+.Home-Grid-cards-5 {
+    width: 619px;
+    display: flex;
+    justify-content: end;
+    /* background-color: var(--primary); */
+}
+
+.Home-Grid-cards-chart {
+    height: 100%;
+}
+
+.Home-Grid-cards-chart-2 {
+    width: 519px;
+    height: 100%;
+}
+
+.Home-Grid-cards-chart-2 img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.Home-Grid-cards-chart img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Home-Grid-cards-6 {
+    /* width: 519px; */
+    grid-row-start: 3;
+    grid-row-end: 3;
+    /* grid-column-start: 2; */
+    /* background-color: var(--primary); */
+}
+
+.Home-Grid-cards-7 {
+    /* width: 353px; */
+    /* background-color: var(--primary); */
+    grid-row-start: 3;
+}
+
+.Home-Grid-cards-hailights-one {
+    display: flex;
+    border: var(--border);
+    max-width: fit-content;
+    padding: 20px;
+    height: 100%;
+    border-radius: 12px;
+    gap: 40px;
+    align-items: center;
+}
+
+.Home-Grid-cards-hailights-one-num {
+    margin-bottom: 0px;
+}
+
+.Home-Grid-cards-hailights-one-num-span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #BABABA;
+}
+
+.primary-icon-wrap {
+    background-color: var(--primary);
+    width: 55px;
+    height: 55px;
+    padding: 15px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    flex-shrink: 0;
+}
+
+.Home-Grid-para-card {
+    background-color: var(--tertiary);
+    padding: 50px 30px;
+    border-radius: 12px;
+    height: 100%;
+    width: 556px;
+}
+
+.Home-Grid-para-card p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 39px;
+    margin: 0px;
+}
+
+.primary-icon-wrap img {
+    width: 25px 25px;
+}
+
+.Home-Grid-rio {
+    background-color: var(--tertiary);
+    border-radius: var(--radiusPrimary);
+    padding: 67px 0px;
+    display: grid;
+    place-content: center;
+    height: 100%;
+}
+
+.Home-Grid-rio span {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 50px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: var(--secondary);
+}
+
+.Home-Grid-cards-hailights-two {
+    border: var(--border);
+    border-radius: var(--radiusPrimary);
+    display: grid;
+    align-content: space-between;
+    height: 100%;
+    padding: 20px;
+}
+
+.Home-Grid-cards-hailights-two-innter-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home-Grid-cards-hailights-two-innter-card p {
+    margin-bottom: 0px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #BABABA;
+}
+
+.Home-Grid-cards-hailights-two-innter-card h5 b {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+}
+
+.Home-Grid-card-see-testimonial-imgs-wraper {
+    display: flex;
+    justify-content: end;
+}
+
+.Home-Grid-card-see-testimonial-imgs-wraper img {
+    margin-left: -30px;
+}
+
+.Home-Grid-cards-6 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 35px;
+    grid-row-start: auto;
+}
+
+.Home-Grid-card-see-testimonial {}
+
+.Home-Grid-card-see-testimonial span{
+    margin-bottom: 20px;
+    display: block;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -2%;
+}
+
+@media (max-width:1250px) {
+    .Home-Grid-cards-wraper {
+        /* grid-template-columns: 200px;
+        grid-template-rows: auto auto auto auto auto;
+        grid-auto-flow: column; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .Home-Grid-cards-4 {}
+
+    .Home-Grid-cards-wraper>* {
+        flex-basis: 500px;
+    }
+
+    .Home-Grid-cards-1 {
+        grid-row: auto;
+        grid-column: auto;
+        grid-column-start: auto;
+        grid-row-end: auto;
+    }
+
+    .Home-Grid-cards-2 {
+        grid-row: 1;
+        grid-column: 3;
+    }
+
+    .Home-Grid-cards-chart-2 {
+        width: auto;
+        height: 100%;
+    }
+
+    .Home-Grid-cards-3 {
+        grid-row: auto;
+        grid-column: auto;
+    }
+
+    .Home-Grid-cards-5 {
+        width: auto;
+        display: flex;
+        justify-content: end;
+    }
+
+    .Home-Grid-para-card {
+        background-color: var(--tertiary);
+        padding: 50px 30px;
+        border-radius: 12px;
+        height: 100%;
+        width: auto;
+    }
+}
+
+.House-Hunt-cont-wrap .House-Hunt-cont-card {
+    max-width: 456px;
+    width: 100%;
+}
+
+.House-Hunt-cont-card {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 30px;
+    gap: 30px;
+    border: var(--border);
+    border-radius: var(--radiusPrimary);
+    margin-bottom: 12px;
+    background-color: white;
+}
+
+.House-Hunt-cont-card p {
+    margin: 0px;
+}
+
+.House-Hunt-main-para {
+    margin-bottom: 80px;
+}
+
+.House-Hunt-main-img-wrap {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.Investible-Score-Report-main-img-wrap {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.House-Hunt-main-img {
+    position: relative;
+    height: 100%;
+    width: 880px;
+    transform: translateX(-40%);
+    right: 0px;
+    z-index: -1;
+}
+
+.Investible-Score-Report-main-img {
+    position: absolute;
+    height: 100%;
+    width: 880px;
+    max-height: 625px;
+    right: 0px;
+    z-index: -1;
+}
+
+.House-Hunt-main-img img {
+    height: 100%;
+}
+
+.Investible-Score-Report-main-img-wrap>img {
+    width: 100%;
+    height: 100%;
+}
+
+.House-Hunt-card-wrap {
+    position: absolute;
+    right: 13px;
+    bottom: 13px;
+    display: flex;
+    gap: 10px;
+}
+
+.House-Hunt-card-wrap>* {
+    flex-shrink: 0;
+}
+
+.House-Hunt-cards {
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: var(--radiusPrimary);
+}
+
+.House-Hunt-card-innter-card-bottom span {
+    display: flex;
+    gap: 6px;
+}
+
+.House-Hunt-card-innter-card-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 232px;
+    column-gap: 17px;
+    row-gap: 10px;
+
+}
+
+.House-Hunt-card-tit {
+    margin-bottom: 5px;
+}
+
+.House-Hunt-card-para {
+    padding-bottom: 10px;
+    border-bottom: var(--border);
+}
+
+
+.House-Hunt-card-img {
+    margin-bottom: 8px;
+}
+
+.House-Hunt-card-cont {
+    padding: 0px 0px 0px 0px;
+}
+
+.Desktop-Valuation-main-img-wrap {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.Desktop-Valuation-main-img-wrap>img {
+    position: absolute;
+    height: 100%;
+    max-width: 880px;
+    object-fit: cover;
+    border-radius: var(--radiusPrimary);
+    z-index: -1;
+}
+
+.primary-btn {
+    max-width: 252px;
+    width: 100%;
+    padding: 14px 0px;
+    text-align: center;
+    background-color: var(--secondary);
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.primary-btn:hover {
+    color: black;
+    background-color: var(--primary);
+
+}
+
+.Desktop-Valuation-btn {
+    margin-left: auto;
+    margin-bottom: 37px;
+}
+
+.Desktop-Valuation-main-tit {
+    margin-bottom: 22px;
+}
+
+.Desktop-Valuation-main-para {
+    margin-bottom: 32px;
+}
+
+.Desktop-Valuation-main-cont-wrap {
+    padding-top: 43px;
+}
+
+.Desktop-Valuation-card-wrap {
+    position: absolute;
+    left: 15px;
+    bottom: -30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Investible-Score-Report-main-inner-card {
+    padding: 18px 17px;
+    background-color: var(--white);
+    border-radius: var(--radiusPrimary);
+
+}
+
+.Investible-Score-Report-main-inner-card span {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.Investible-Score-Report-main-inner-cards-wrap {
+    position: absolute;
+    right: 16px;
+    bottom: -16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 252px;
+    width: 100%;
+}
+
+.Investible-Score-Report-main-inner-card-tit {
+    margin-bottom: 10px;
+}
+
+.Investible-Score-Report-cont-wrap {
+    max-height: 625px;
+    height: 100%;
+}
+
+.Investible-Score-Report-main-para {
+    margin-bottom: 80px;
+}
+
+.Investible-Score-Report-main-inner-card-two {
+    background-color: var(--white);
+    border-radius: var(--radiusPrimary);
+    padding: 18px 18px;
+    border: var(--border);
+}
+
+.Investible-Score-Report-main-inner-card-two span {
+    margin-bottom: 10px;
+}
+
+.Investible-Score-Report-main-inner-card-two span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Investible-Score-Report-main-inner-card-two span b {
+    font-weight: inherit;
+}
+
+.Investible-Score-Report-pay-btn {
+    padding: 14px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: var(--primary);
+    width: 100%;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.Investible-Score-Report-pay-btn:hover {
+    background-color: var(--secondary);
+}
+
+.x-small-font {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    letter-spacing: 0%;
+    margin: 0px;
+}
+
+.Investible-Score-Report-copy-rights {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Investible-Score-Report-pay-btn {
+    margin-bottom: 10px;
+}
+
+.Investible-Score-Report-Sec .House-Hunt-cont-card {
+    /* max-width: 456px; */
+    width: 100%;
+}
+
+.Speak-to-an-Expert-sec .Desktop-Valuation-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: var(--radiusPrimary);
+}
+
+.Speak-to-an-Expert-sec .Desktop-Valuation-card>div {
+    display: flex;
+    gap: 30px;
+}
+
+.Speak-to-an-Expert-sec .Desktop-Valuation-card div p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+.Speak-to-an-Expert-card .Desktop-Valuation-btn {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.Speak-to-an-Expert-sec .House-Hunt-cont-card {
+    max-width: 456px;
+    width: 100%;
+    margin-left: auto;
+}
+
+.Unique-scales-Evaluation-list {
+    padding: 40px 0px;
+    text-align: center;
+    border-top: var(--border);
+}
+
+.Unique-scales-Evaluation-list h5 {
+    margin: 0px;
+}
+
+.Unique-scales-Evaluation-main-tit {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Why-choose-us-main-tit {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.Why-choose-us-main-card {
+    padding: 20px 30px;
+    border: var(--border);
+    border-radius: var(--radiusPrimary);
+}
+
+.Why-choose-us-main-card .primary-icon-wrap {
+    margin-bottom: 40px;
+}
+
+.Why-choose-us-main-card h6 {
+    margin-bottom: 8px;
+}
+
+.Why-choose-us-main-card p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.Why-choose-us-card-wrap {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.Why-choose-us-sec {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 155px;
+}
+
+.Why-choose-us-main-img {
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.Indias-Oldest-largest-repository-card {
+    padding: 20px 30px;
+    border: var(--border);
+    border-radius: var(--radiusPrimary);
+    position: relative;
+}
+
+.Indias-Oldest-largest-repository-card * {
+    transition: margin-bottom 0.5s ease-in-out;
+}
+
+.Indias-Oldest-largest-repository-card:hover {
+    background-color: #3A4963;
+    color: var(--primary);
+    padding: 30px 30px 70px 30px;
+}
+
+.Indias-Oldest-largest-repository-card:hover .Indias-Oldest-largest-repository-tit {
+    margin-bottom: 80px;
+}
+
+.Indias-Oldest-largest-repository-tit {
+    margin-bottom: 20px;
+}
+
+.Indias-Oldest-largest-mini-tit {
+    margin-bottom: 8px;
+}
+
+.IndiaOldest-Largest-Repository {
+    /* height: 400px; */
+    height: 720px;
+}
+
+.IndiaOldest-Largest-Repository-main-tit {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.Home-Tab-System .nav-pills {
+    justify-content: space-between;
+    /* gap: 90px; */
+    width: max-content;
+    margin: 0px auto;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -1%;
+    padding: 22px 60px;
+    border-radius: 24px;
+    border: var(--border);
+    max-width: 800px;
+    width: 100%;
+}
+
+.Home-Tab-System .House-Hunt-cont-card {
+    align-items: start;
+}
+
+.Home-Tab-System .nav-link {
+    color: black;
+}
+
+.Home-Tab-System .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent;
+    color: var(--secondary);
+
+}
+
+.home-tab-sec-card-wrap {
+    max-width: 800px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.home-tab-sec-card-wrap .col-lg-6,
+.home-tab-sec-card-wrap .col-lg-12 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.What-our-client-says-main-tit {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+
+.What-our-client-says-sec .swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.What-our-client-says-sec .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .What-our-client-says-sec .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.What-our-client-says-card-img{
+    margin-bottom: 50px;
+}
+
+.What-our-client-says-card p{
+   max-width: 491px;
+   width: 100%;
+   margin: 0px auto 20px;
+}
+
+.What-our-client-says-card-name img{
+    width: 90px;
+    height: 20px;
+}
+
+.What-our-client-says-card-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.What-our-client-says-sec .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{
+    width: calc(40% - 2* var(--swiper-scrollbar-sides-offset, 1%));
+}
+
+.What-our-client-says-sec .swiper-scrollbar{
+    right: auto;
+    left: 50% !important;
+    transform: translateX(-50%);
+}
+
+.What-our-client-says-sec .swiper-scrollbar-drag , .swiper-scrollbar-drag{
+    background: var(--secondary);
+    height: 9px;
+    top: -4px;
+
+}
+
+.What-our-client-says-sec .swiper-scrollbar , .swiper-scrollbar{
+    height: 1px !important;
+    background: #DADADA ;
+}
+
+.home-Use-Cases-card{
+    padding: 10px;
+    border-radius: var(--radiusPrimary);
+    background-color: white;
+    border: var(--border);
+}
+
+.Home-Use-Case-Sec .swiper-slide{
+    /* max-width: 390px !important;
+    width: 100% !important; */
+    /* width: 100%; */
+    /* margin-left: 30px; */
+}
+
+.Home-Use-Case-Sec .swiper-wrapper{
+  /* height: 432px; */
+}
+
+.Home-Use-Case-Sec .swiper{
+   padding-bottom: 80px;
+}
+
+.home-Use-Cases-card-main-tit{
+    padding-top: 10px;
+    border-top: var(--border);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.home-Use-Cases-card-main-tit:hover a{
+    color: black;
+}
+
+.home-Use-Cases-card-main-tit a{
+    color: #565353;
+}
+
+.home-Use-Cases-card-img{
+    margin-bottom: 8px;
+}
+
+.home-Use-Cases-card-img img{
+    width: 100%;
+}
+
+.home-Use-Cases-card-mini-tit{
+    display: flex;
+    gap: 20px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;   
+}
+
+.Home-Use-Case-Sec-main-tit{
+    margin-bottom: 60px;
+}
+
+.home-Use-Cases-card-btn{
+    width: 45px;
+    height: 45px;
+    background-color: var(--secondary);
+    display: grid;
+    place-content: center;
+    border-radius: 4px;
+    margin-left: auto;
+    transition: var(--transition);
+}
+
+.home-Use-Cases-card-btn:hover{
+  background-color: var(--primary);
+}
+
+.HomeGet-Touch-with-Us-wrap{
+    padding: 60px 0px 150px;
+    background: url("../src/images/Home-1/Get-In-Touch-with-us/Get-In-Touch-with-us-main.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: var(--radiusPrimary);
+    color: white;
+}
+
+.HomeGet-Touch-with-Us-cont-wrap{
+    max-width: 421px;
+    width: 100%;
+}
+
+.HomeGet-Touch-with-Us-cont-wrap p{
+    margin-bottom: 40px;
+}
+
+.HomeGet-Touch-with-Us-cont-wrap h3{
+    margin-bottom: 20px;
+}
+
+.footer-sec{
+    padding: 60px 40px;
+    background-color: #1C2533;
+}
+
+.footer-sec{
+    color: var(--white);
+}
+
+.footer-logo-wrap{
+    margin-bottom: 40px;
+}
+
+.main-tit-links a{
+    color: white;
+}
+
+.main-tit-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 38px;
+}
+
+.main-tit-links p{
+    margin: 0px;
+}
+
+.footer-Quick-Links span , .Contact-Us-links-wrap span{
+    display: flex;
+    font-family: "Poppins";
+    gap: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    margin-bottom: 9px;
+
+}
+
+.footer-logo-nd-content-wrap p{
+    color: #FFFFFF80;
+}
+
+.Contact-Us-links-tit , .footer-Quick-Links-tit{
+   margin-bottom: 32px;
+}
+
+.Contact-Us-links-wrap{
+
+}
+
+.Follow-Us-links{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.privacy-policy-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin-top: 50px;
+    border-top: 1px solid #FFFFFF80 ;
+}
+
+.privacy-policy-wrap p{
+    margin: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #FFFFFF80;
+
+}
+
+.privacy-policy-wrap span{
+    display: flex;
+    column-gap: 40px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.Home-Get-Touch-with-Us{
+   overflow-x: hidden;
+}
+
+.Investible-Score-Report-Sec{
+    padding-bottom: 200px;
+}
+
+.Onboarding-breadcrumb-Sec{
+    padding: 200px 0px 250px;
+}
+
+.Onboarding-breadcrumb-wrap{
+    /* max-width: 525px; */
+    /* width: 100%; */
+}
+
+.tit-dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    display: block;
+}
+
+.Onboarding-breadcrumb-main-tit{
+    margin-bottom: 30px;
+}
+
+.Onboarding-breadcrumb-para{
+    margin-top: 20px;
+    max-width: 434px;
+    width: 100%;
+}
+
+.Onboarding-breadcrumb-Sec{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Investible-Score-sec{
+
+}
+
+.Investible-Score-card-main-tit{
+    color: var(--secondary);
+}
+
+
+.Investible-Score-hole-card-wrap{
+    padding: 30px;
+    border: var(--border);
+    border-radius: var(--radiusPrimary);
+    
+}
+
+.Investible-Score-card-cont-wrap{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom:var(--border) ;
+}
+
+
+.Investible-Score-card-cont{
+   
+}
+
+.Investible-Score-card-img{
+    flex-shrink: 0;
+}
+
+.Investible-Score-inner-btm-card span{
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 11px;
+}
+
+.Investible-Score-hole-card-wrap{
+    position: relative;
+    transform: translateY(-65px);
+    background-color: var(--white);
+}
+
+.Future-Price-Projection-FPP-sec-main-tit{
+    color: var(--primary);
+    margin-bottom: 30px;
+}
+
+.Future-Price-Projection-FPP-cont-wrap{
+   max-width: 567px;
+   width: 100%;
+   margin: 0px auto;
+}
+
+
+
